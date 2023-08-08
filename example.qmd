@@ -10,4 +10,7 @@ geometry:
 
 ## Heading
 
-{{< insertpdf ../pk-qt-1719-v1-define.pdf >}}
+<!--
+this is an example where I've trimmed off the bottom 2.5cm off the demofile.pdf file to get rid of the page numbers, then the extension will replace it with the correct page number depending on where in the new pdf file it's been added. I've also specified that I only want pages 1 and 3 from the original file to be added. Trim and pages are optional kwargs, not needed if you want to insert all pages of the pdf as is.
+-->
+{{< insertpdf testfiles/demofile.pdf trim="0cm 2.5cm 0cm 0cm" pages="1,3" >}}

@@ -23,6 +23,6 @@ return {
     end
 
     -- inserts the pdf into the pandoc 
-    return pandoc.RawInline('latex', "\\includepdf[pages={" .. pages .. "}, clip, trim=" .. trim .. " , pagecommand={\\pagestyle{plain}}]{" .. path .. "}")
+    return pandoc.RawInline('latex', "\\includepdf[pages={" .. pages .. "}, clip, trim=" .. trim .. " , pagecommand={\\pagestyle{empty}}]{" .. path .. "}")
   end
 }
