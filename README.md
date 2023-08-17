@@ -1,4 +1,4 @@
-# Test Extension For Quarto
+# Insertpdf Extension For Quarto
 
 _TODO_: Add a short description of your extension.
 
@@ -7,7 +7,7 @@ _TODO_: Add a short description of your extension.
 _TODO_: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto add <github-organization>/test
+quarto add A2-ai/insertpdf
 ```
 
 This will install the extension under the `_extensions` subdirectory.
