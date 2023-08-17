@@ -30,9 +30,9 @@ For example:
 
 This code trims 1cm off the left, 2cm bottom, 3cm right, and 4cm top of each inserted page and inserts pages 1 and 3 to 5 from the pdf.  
    
-The default is trim 1.35cm off the bottom and all pages inserted.  
+The default (if nothing is added after the file path) is trim 1.35cm off the bottom and all pages inserted.  
   
-Please pay attention to where the spaces and the quotations are place in the example.
+Please pay attention to where the spaces and the quotations are placed in the example.
 
 ## Example
 
