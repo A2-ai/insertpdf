@@ -4,7 +4,7 @@ _TODO_: Add a short description of your extension.
 
 ## Installing
 
-_TODO_: Replace the `<github-organization>` with your GitHub organization.
+Note that, it is recommended to use a quarto version at least 1.2 to work with extensions.
 
 ```bash
 quarto add A2-ai/insertpdf
