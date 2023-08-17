@@ -1,6 +1,6 @@
 # Insertpdf Extension For Quarto
 
-A Quarto shortcode extension that takes advantage of the latex package "pdfpages" to directly add pdf with multiple pages into the report. Also gives control of specific pages to add and trimming off margins before inserting.
+A Quarto shortcode extension that takes advantage of the latex package "pdfpages" to directly add pdf with multiple pages into the report. Also gives control of specific pages to add and the ability to trim off margins before inserting.
 
 ## Installing
 
@@ -28,7 +28,9 @@ For example:
 {{< insertpdf ../../this.pdf trim="1cm 2cm 3cm 4cm" pages="1,3-5" >}}
 ```
 
-This code trims 1cm off the left, 2cm bottom, 3cm right, and 4cm top of each inserted page and inserts pages 1 and 3 to 5 from the pdf. The default is trim 1.35cm off the bottom and all pages inserted.  
+This code trims 1cm off the left, 2cm bottom, 3cm right, and 4cm top of each inserted page and inserts pages 1 and 3 to 5 from the pdf.  
+   
+The default is trim 1.35cm off the bottom and all pages inserted.  
   
 Please pay attention to where the spaces and the quotations are place in the example.
 
